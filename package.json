@@ -47,8 +47,5 @@
     "rollup": "^4.44.1",
     "tslib": "^2.8.1",
     "typescript": "^5.8.3"
-  },
-  "dependencies": {
-    "murmurhash-js": "^1.0.0"
   }
 }
