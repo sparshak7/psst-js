@@ -6,10 +6,19 @@
 </head>
 <body>
   <h1>Browser Test</h1>
+  <p id="hash"></p>
 
-  <script src="./dist/psst-collector.js"></script>
+  <script src="./dist/psst-collector.min.js"></script>
   <script>
-    psst.collect();
+    let hash = "";
+
+    async function getHash() {
+      hash = await psst.collect();
+      const p = document.getElementById("hash")
+      p.innerText = hash
+    }
+
+    getHash()
   </script>
 </body>
 </html>

@@ -14,8 +14,10 @@ export const collect = async() => {
     ...screenData,
     timezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
     timezoneOffset: new Date().getTimezoneOffset(),
+    devicePixelRatio: window.devicePixelRatio
   });
 
   //make API call to backend
   console.log(hash)
+  return hash
 }
