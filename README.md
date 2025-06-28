@@ -28,8 +28,10 @@ Collects non-invasive browser/device data and returns a unique hash.
 <script>
   window.psst.collect().then(console.log).catch(console.error);
 </script>
+```
 
-## 📦 Installation (for imports)
+### 📦 Installation (for imports)
 
 ```bash
 npm install psst-js
+```
