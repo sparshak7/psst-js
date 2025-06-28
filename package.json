@@ -1,6 +1,6 @@
 {
   "name": "psst-js",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A lightweight JavaScript browser fingerprinting utility with UMD and ESM support.",
   "main": "dist/index.js",
   "module": "dist/index.js",
